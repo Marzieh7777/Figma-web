@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
+body {
+    @apply text-black1 text-[17px] tracking-wider leading-8 font-Zain;
+}
+
+section {
+    @apply pt-20;
+}
+
+.btn {
+    @apply bg-shade2 text-white rounded-md w-40 h-12 tracking-[1.02px] flex items-center justify-center transition-all;
+}
